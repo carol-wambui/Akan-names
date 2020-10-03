@@ -14,29 +14,51 @@
 
     <div class="container">
         <div class="jumbotron">
-            <form class="form-horizontal" action="/action_page.php">
+            <form class="form-horizontal">
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <label class="control-label col-sm-2" for="centuary">Centuary:</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        <input type="number" class="form-control" id="centuary" placeholder="I.e 20 if born in the 20th centuary">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="pwd">Password:</label>
+                    <label class="control-label col-sm-2" for="year">Year:</label>
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                        <input type="number" class="form-control" id="year" placeholder="Enter year">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="month">Month:</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="month" placeholder="Enter Month">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="day">day:</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="day" placeholder="Enter day">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Select gender:</label>
+                    <div class="col-sm-10">
+                    <select class="form-control " id="gender">
+                      <option value=""></option>
+                      <option> Male</option>
+                      <option>Female</option>
+                    </select>
+                </div>
+                  </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <div class="checkbox">
-                            <label><input type="checkbox"> Remember me</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-success" onclick="ghana()">Submit</button>
+                    
+                        <button type="reset" class="btn btn-danger">Reset</button>
                     </div>
                 </div>
             </form>
