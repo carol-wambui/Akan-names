@@ -1,0 +1,21 @@
+#heading{
+    text-align: center;
+}
+h3{
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    color:blue;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+    font-size: medium;
+    
+}
