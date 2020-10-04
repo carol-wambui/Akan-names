@@ -17,5 +17,10 @@ span{
     color: blue;
     font-weight: bold;
     font-size: medium;
-    
+
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
 }
